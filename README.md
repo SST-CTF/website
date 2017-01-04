@@ -31,5 +31,6 @@ If you have any questions, feel free contact us: github@sstctf.org
 - Otakar Andrysek
 - Andrew Quach
 - Tamir Enkhjargal
+- Stanislav Lyakhov
 
 *SST CTF*
