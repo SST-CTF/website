@@ -55,10 +55,10 @@ h1, h2, h3, h4, h5, h6,
 
 #slideshow > div {
 	position: absolute;
-	top: 0px;
-	left; 0px;
-	right: 0px;
-	bottom: 0px;
+	top: 0;
+	left; 0;
+	right: 0;
+	bottom: 0;
 }
 
 main > section {
@@ -258,18 +258,18 @@ main > section {
 }
 
 @-webkit-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 @-moz-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 @keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 
@@ -419,12 +419,12 @@ h1.navbar-brand {
 
 .sl-slide-horizontal .sl-content-slice:first-child {
     top: -200px;
-    padding: 200px 200px 0px 200px;
+    padding: 200px 200px 0 200px;
 }
 
 .sl-slide-horizontal .sl-content-slice:nth-child(2) {
     top: 50%;
-    padding: 0px 200px 200px 200px;
+    padding: 0 200px 200px 200px;
 }
 
 /* Vertical slice */
@@ -442,12 +442,12 @@ h1.navbar-brand {
 
 .sl-slide-vertical .sl-content-slice:first-child {
     left: -200px;
-    padding: 200px 0px 200px 200px;
+    padding: 200px 0 200px 200px;
 }
 
 .sl-slide-vertical .sl-content-slice:nth-child(2) {
     left: 50%;
-    padding: 200px 200px 200px 0px;
+    padding: 200px 200px 200px 0;
 }
 
 /* Content wrapper */
