@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6,
 #slideshow > div {
 	position: absolute;
 	top: 0;
-	left; 0;
+	left: 0;
 	right: 0;
 	bottom: 0;
 }
@@ -72,7 +72,8 @@ main > section {
     text-transform: uppercase;
 }
 
-.btn-blue {
+.btn-blue { 
+    background-color: white;
     background-color: rgba(0,158,227, 0.78);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
