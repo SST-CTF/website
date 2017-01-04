@@ -559,15 +559,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->11/03/16<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Thursday November 03 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->11/07/16<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Monday November 07 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: Coding Projects<!--PreviousTopicEnd--></li>
-                                <li><!--PreviousLeaderBegin-->Leader: Andrew Quach<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: Work on our coding project while also learning about GitHub command line.<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: Code, code, code!<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/11-03-16"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousTopicBegin-->Topic: Coding Progress Check<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousLeaderBegin-->Leader: Otakar Andrysek<!--PreviousLeaderEnd--></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Checkup on coding project, collaborate with others.<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: More Coding!<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/11-07-16"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -577,15 +577,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->11/07/16<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Monday November 07 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->11/09/16<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Wednesday November 09 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: Coding Progress Check<!--NextTopicEnd--></li>
+                                <li><!--NextTopicBegin-->Topic: Present Projects<!--NextTopicEnd--></li>
                                 <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Checkup on coding project, collaborate with others.<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: More Coding!<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/11-07-16"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextDescriptionBegin-->Description: Present the coding projects we have been working on for the last week.<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: TBD<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/11-09-16"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -595,15 +595,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->11/09/16<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Wednesday November 09 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->01/03/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Tuesday January 03 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: Present Projects<!--FutureTopicEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: Competition Overview<!--FutureTopicEnd--></li>
                                 <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Present the coding projects we have been working on for the last week.<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: TBD<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/11-09-16"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureDescriptionBegin-->Description: Discussed writeups of previous competition, and prepared for Insomni'hack.<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: 3DSCTF writeups<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/01-03-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
