@@ -1,5 +1,9 @@
 # SST CTF Website
 
+[![Code Climate](https://codeclimate.com/github/SST-CTF/website/badges/gpa.svg)](https://codeclimate.com/github/SST-CTF/website)
+[![Test Coverage](https://codeclimate.com/github/SST-CTF/website/badges/coverage.svg)](https://codeclimate.com/github/SST-CTF/website/coverage)
+[![Issue Count](https://codeclimate.com/github/SST-CTF/website/badges/issue_count.svg)](https://codeclimate.com/github/SST-CTF/website)
+
 ##### Official GitHub Repository for our Website
 ![GIF of Website in Action](https://github.com/SST-CTF/website/blob/master/img/github/webpage.gif?raw=true)
 
@@ -16,6 +20,7 @@
 ## Footnotes
 ###### Links
 [Link to this GitHub page.](https://github.com/SST-CTF/website)
+
 [Link to our CTF (Programming) team / club.](http://sstctf.org)
 
 ###### Questions?
