@@ -8,19 +8,19 @@ Copyright (c) 2013 Daniel Eden
 
 .animated {
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -moz-animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
 }
 
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
 }
 
 .animated.hinge {
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -moz-animation-duration: 2s;
 }
 
 @-webkit-keyframes bounce {
@@ -62,7 +62,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounce {
   -webkit-animation-name: bounce;
-  animation-name: bounce;
+  -moz-animation-name: bounce;
 }
 
 @-webkit-keyframes flash {
@@ -87,7 +87,7 @@ Copyright (c) 2013 Daniel Eden
 
 .flash {
   -webkit-animation-name: flash;
-  animation-name: flash;
+  -moz-animation-name: flash;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -131,7 +131,7 @@ Copyright (c) 2013 Daniel Eden
 
 .pulse {
   -webkit-animation-name: pulse;
-  animation-name: pulse;
+  -moz-animation-name: pulse;
 }
 
 @-webkit-keyframes rubberBand {
@@ -195,7 +195,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rubberBand {
   -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
+  -moz-animation-name: rubberBand;
 }
 
 @-webkit-keyframes shake {
@@ -237,7 +237,7 @@ Copyright (c) 2013 Daniel Eden
 
 .shake {
   -webkit-animation-name: shake;
-  animation-name: shake;
+  -moz-animation-name: shake;
 }
 
 @-webkit-keyframes swing {
@@ -302,9 +302,10 @@ Copyright (c) 2013 Daniel Eden
 .swing {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
-  transform-origin: top center;
+  -moz-transform-origin: top center;
+  -o-transform-origin: top center;
   -webkit-animation-name: swing;
-  animation-name: swing;
+  -moz-animation-name: swing;
 }
 
 @-webkit-keyframes tada {
@@ -368,7 +369,7 @@ Copyright (c) 2013 Daniel Eden
 
 .tada {
   -webkit-animation-name: tada;
-  animation-name: tada;
+  -moz-animation-name: tada;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -456,7 +457,7 @@ Copyright (c) 2013 Daniel Eden
 
 .wobble {
   -webkit-animation-name: wobble;
-  animation-name: wobble;
+  -moz-animation-name: wobble;
 }
 
 @-webkit-keyframes bounceIn {
@@ -515,7 +516,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceIn {
   -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
+  -moz-animation-name: bounceIn;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -572,7 +573,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
-  animation-name: bounceInDown;
+  -moz-animation-name: bounceInDown;
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -629,7 +630,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
+  -moz-animation-name: bounceInLeft;
 }
 
 @-webkit-keyframes bounceInRight {
@@ -686,7 +687,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
-  animation-name: bounceInRight;
+  -moz-animation-name: bounceInRight;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -743,7 +744,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
-  animation-name: bounceInUp;
+  -moz-animation-name: bounceInUp;
 }
 
 @-webkit-keyframes bounceOut {
@@ -800,7 +801,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceOut {
   -webkit-animation-name: bounceOut;
-  animation-name: bounceOut;
+  -moz-animation-name: bounceOut;
 }
 
 @-webkit-keyframes bounceOutDown {
@@ -846,7 +847,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceOutDown {
   -webkit-animation-name: bounceOutDown;
-  animation-name: bounceOutDown;
+  -moz-animation-name: bounceOutDown;
 }
 
 @-webkit-keyframes bounceOutLeft {
@@ -892,7 +893,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceOutLeft {
   -webkit-animation-name: bounceOutLeft;
-  animation-name: bounceOutLeft;
+  -moz-animation-name: bounceOutLeft;
 }
 
 @-webkit-keyframes bounceOutRight {
@@ -938,7 +939,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceOutRight {
   -webkit-animation-name: bounceOutRight;
-  animation-name: bounceOutRight;
+  -moz-animation-name: bounceOutRight;
 }
 
 @-webkit-keyframes bounceOutUp {
@@ -984,7 +985,7 @@ Copyright (c) 2013 Daniel Eden
 
 .bounceOutUp {
   -webkit-animation-name: bounceOutUp;
-  animation-name: bounceOutUp;
+  -moz-animation-name: bounceOutUp;
 }
 
 @-webkit-keyframes fadeIn {
@@ -1009,7 +1010,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1044,7 +1045,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -1079,7 +1080,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
-  animation-name: fadeInDownBig;
+  -moz-animation-name: fadeInDownBig;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -1114,7 +1115,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
+  -moz-animation-name: fadeInLeft;
 }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -1149,7 +1150,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
-  animation-name: fadeInLeftBig;
+  -moz-animation-name: fadeInLeftBig;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -1184,7 +1185,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -1219,7 +1220,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
-  animation-name: fadeInRightBig;
+  -moz-animation-name: fadeInRightBig;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -1254,7 +1255,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -1289,7 +1290,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
-  animation-name: fadeInUpBig;
+  -moz-animation-name: fadeInUpBig;
 }
 
 @-webkit-keyframes fadeOut {
@@ -1314,7 +1315,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOut {
   -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
+  -moz-animation-name: fadeOut;
 }
 
 @-webkit-keyframes fadeOutDown {
@@ -1349,7 +1350,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutDown {
   -webkit-animation-name: fadeOutDown;
-  animation-name: fadeOutDown;
+  -moz-animation-name: fadeOutDown;
 }
 
 @-webkit-keyframes fadeOutDownBig {
@@ -1384,7 +1385,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
-  animation-name: fadeOutDownBig;
+  -moz-animation-name: fadeOutDownBig;
 }
 
 @-webkit-keyframes fadeOutLeft {
@@ -1419,7 +1420,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
-  animation-name: fadeOutLeft;
+  -moz-animation-name: fadeOutLeft;
 }
 
 @-webkit-keyframes fadeOutLeftBig {
@@ -1454,7 +1455,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
-  animation-name: fadeOutLeftBig;
+  -moz-animation-name: fadeOutLeftBig;
 }
 
 @-webkit-keyframes fadeOutRight {
@@ -1489,7 +1490,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutRight {
   -webkit-animation-name: fadeOutRight;
-  animation-name: fadeOutRight;
+  -moz-animation-name: fadeOutRight;
 }
 
 @-webkit-keyframes fadeOutRightBig {
@@ -1524,7 +1525,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
-  animation-name: fadeOutRightBig;
+  -moz-animation-name: fadeOutRightBig;
 }
 
 @-webkit-keyframes fadeOutUp {
@@ -1559,7 +1560,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutUp {
   -webkit-animation-name: fadeOutUp;
-  animation-name: fadeOutUp;
+  -moz-animation-name: fadeOutUp;
 }
 
 @-webkit-keyframes fadeOutUpBig {
@@ -1594,7 +1595,7 @@ Copyright (c) 2013 Daniel Eden
 
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
-  animation-name: fadeOutUpBig;
+  -moz-animation-name: fadeOutUpBig;
 }
 
 @-webkit-keyframes flip {
@@ -1602,21 +1603,21 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 
   40% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 
   50% {
     -webkit-transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
   }
 
   80% {
@@ -1630,7 +1631,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(0deg) scale(1);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
   }
 }
 
@@ -1640,7 +1641,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 
   40% {
@@ -1648,7 +1649,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 
   50% {
@@ -1656,7 +1657,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
   }
 
   80% {
@@ -1664,7 +1665,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(.95);
     transform: perspective(400px) translateZ(0) rotateY(0deg) scale(.95);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
   }
 
   100% {
@@ -1672,7 +1673,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(0deg) scale(1);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
   }
 }
 
@@ -1681,7 +1682,7 @@ Copyright (c) 2013 Daniel Eden
   -ms-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
-  animation-name: flip;
+  -moz-animation-name: flip;
 }
 
 @-webkit-keyframes flipInX {
@@ -1741,7 +1742,7 @@ Copyright (c) 2013 Daniel Eden
   -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
-  animation-name: flipInX;
+  -moz-animation-name: flipInX;
 }
 
 @-webkit-keyframes flipInY {
@@ -1801,7 +1802,7 @@ Copyright (c) 2013 Daniel Eden
   -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipInY;
-  animation-name: flipInY;
+  -moz-animation-name: flipInY;
 }
 
 @-webkit-keyframes flipOutX {
@@ -1836,7 +1837,7 @@ Copyright (c) 2013 Daniel Eden
 
 .flipOutX {
   -webkit-animation-name: flipOutX;
-  animation-name: flipOutX;
+  -moz-animation-name: flipOutX;
   -webkit-backface-visibility: visible !important;
   -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
@@ -1877,7 +1878,7 @@ Copyright (c) 2013 Daniel Eden
   -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipOutY;
-  animation-name: flipOutY;
+  -moz-animation-name: flipOutY;
 }
 
 @-webkit-keyframes lightSpeedIn {
@@ -1938,9 +1939,9 @@ Copyright (c) 2013 Daniel Eden
 
 .lightSpeedIn {
   -webkit-animation-name: lightSpeedIn;
-  animation-name: lightSpeedIn;
+  -moz-animation-name: lightSpeedIn;
   -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
 }
 
 @-webkit-keyframes lightSpeedOut {
@@ -1975,9 +1976,9 @@ Copyright (c) 2013 Daniel Eden
 
 .lightSpeedOut {
   -webkit-animation-name: lightSpeedOut;
-  animation-name: lightSpeedOut;
+  -moz-animation-name: lightSpeedOut;
   -webkit-animation-timing-function: ease-in;
-  animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
 }
 
 @-webkit-keyframes rotateIn {
@@ -2022,7 +2023,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateIn {
   -webkit-animation-name: rotateIn;
-  animation-name: rotateIn;
+  -moz-animation-name: rotateIn;
 }
 
 @-webkit-keyframes rotateInDownLeft {
@@ -2067,7 +2068,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateInDownLeft {
   -webkit-animation-name: rotateInDownLeft;
-  animation-name: rotateInDownLeft;
+  -moz-animation-name: rotateInDownLeft;
 }
 
 @-webkit-keyframes rotateInDownRight {
@@ -2112,7 +2113,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateInDownRight {
   -webkit-animation-name: rotateInDownRight;
-  animation-name: rotateInDownRight;
+  -moz-animation-name: rotateInDownRight;
 }
 
 @-webkit-keyframes rotateInUpLeft {
@@ -2157,7 +2158,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateInUpLeft {
   -webkit-animation-name: rotateInUpLeft;
-  animation-name: rotateInUpLeft;
+  -moz-animation-name: rotateInUpLeft;
 }
 
 @-webkit-keyframes rotateInUpRight {
@@ -2202,7 +2203,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateInUpRight {
   -webkit-animation-name: rotateInUpRight;
-  animation-name: rotateInUpRight;
+  -moz-animation-name: rotateInUpRight;
 }
 
 @-webkit-keyframes rotateOut {
@@ -2247,7 +2248,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateOut {
   -webkit-animation-name: rotateOut;
-  animation-name: rotateOut;
+  -moz-animation-name: rotateOut;
 }
 
 @-webkit-keyframes rotateOutDownLeft {
@@ -2292,7 +2293,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateOutDownLeft {
   -webkit-animation-name: rotateOutDownLeft;
-  animation-name: rotateOutDownLeft;
+  -moz-animation-name: rotateOutDownLeft;
 }
 
 @-webkit-keyframes rotateOutDownRight {
@@ -2337,7 +2338,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateOutDownRight {
   -webkit-animation-name: rotateOutDownRight;
-  animation-name: rotateOutDownRight;
+  -moz-animation-name: rotateOutDownRight;
 }
 
 @-webkit-keyframes rotateOutUpLeft {
@@ -2382,7 +2383,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateOutUpLeft {
   -webkit-animation-name: rotateOutUpLeft;
-  animation-name: rotateOutUpLeft;
+  -moz-animation-name: rotateOutUpLeft;
 }
 
 @-webkit-keyframes rotateOutUpRight {
@@ -2427,7 +2428,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rotateOutUpRight {
   -webkit-animation-name: rotateOutUpRight;
-  animation-name: rotateOutUpRight;
+  -moz-animation-name: rotateOutUpRight;
 }
 
 @-webkit-keyframes slideInDown {
@@ -2460,7 +2461,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideInDown {
   -webkit-animation-name: slideInDown;
-  animation-name: slideInDown;
+  -moz-animation-name: slideInDown;
 }
 
 @-webkit-keyframes slideInLeft {
@@ -2493,7 +2494,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
-  animation-name: slideInLeft;
+  -moz-animation-name: slideInLeft;
 }
 
 @-webkit-keyframes slideInRight {
@@ -2526,7 +2527,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideInRight {
   -webkit-animation-name: slideInRight;
-  animation-name: slideInRight;
+  -moz-animation-name: slideInRight;
 }
 
 @-webkit-keyframes slideOutLeft {
@@ -2559,7 +2560,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideOutLeft {
   -webkit-animation-name: slideOutLeft;
-  animation-name: slideOutLeft;
+  -moz-animation-name: slideOutLeft;
 }
 
 @-webkit-keyframes slideOutRight {
@@ -2592,7 +2593,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideOutRight {
   -webkit-animation-name: slideOutRight;
-  animation-name: slideOutRight;
+  -moz-animation-name: slideOutRight;
 }
 
 @-webkit-keyframes slideOutUp {
@@ -2625,7 +2626,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
-  animation-name: slideOutUp;
+  -moz-animation-name: slideOutUp;
 }
 
 @-webkit-keyframes slideInUp {
@@ -2660,7 +2661,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideInUp {
   -webkit-animation-name: slideInUp;
-  animation-name: slideInUp;
+  -moz-animation-name: slideInUp;
 }
 
 @-webkit-keyframes slideOutDown {
@@ -2693,7 +2694,7 @@ Copyright (c) 2013 Daniel Eden
 
 .slideOutDown {
   -webkit-animation-name: slideOutDown;
-  animation-name: slideOutDown;
+  -moz-animation-name: slideOutDown;
 }
 
 @-webkit-keyframes hinge {
@@ -2703,7 +2704,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   20%, 60% {
@@ -2712,7 +2713,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   40% {
@@ -2721,7 +2722,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   80% {
@@ -2730,7 +2731,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
     opacity: 1;
   }
 
@@ -2750,7 +2751,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   20%, 60% {
@@ -2761,7 +2762,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   40% {
@@ -2772,7 +2773,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   80% {
@@ -2783,7 +2784,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform-origin: top left;
     transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
     opacity: 1;
   }
 
@@ -2797,7 +2798,7 @@ Copyright (c) 2013 Daniel Eden
 
 .hinge {
   -webkit-animation-name: hinge;
-  animation-name: hinge;
+  -moz-animation-name: hinge;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -2834,7 +2835,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rollIn {
   -webkit-animation-name: rollIn;
-  animation-name: rollIn;
+  -moz-animation-name: rollIn;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -2871,7 +2872,7 @@ Copyright (c) 2013 Daniel Eden
 
 .rollOut {
   -webkit-animation-name: rollOut;
-  animation-name: rollOut;
+  -moz-animation-name: rollOut;
 }
 
 @-webkit-keyframes zoomIn {
@@ -2901,7 +2902,7 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomIn {
   -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
+  -moz-animation-name: zoomIn;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -2910,7 +2911,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.1) translateY(-2000px);
     transform: scale(.1) translateY(-2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -2918,7 +2919,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateY(60px);
     transform: scale(.475) translateY(60px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
@@ -2929,7 +2930,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.1) translateY(-2000px);
     transform: scale(.1) translateY(-2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -2938,13 +2939,13 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateY(60px);
     transform: scale(.475) translateY(60px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
 .zoomInDown {
   -webkit-animation-name: zoomInDown;
-  animation-name: zoomInDown;
+  -moz-animation-name: zoomInDown;
 }
 
 @-webkit-keyframes zoomInLeft {
@@ -2953,7 +2954,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.1) translateX(-2000px);
     transform: scale(.1) translateX(-2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -2961,7 +2962,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateX(48px);
     transform: scale(.475) translateX(48px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
@@ -2972,7 +2973,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.1) translateX(-2000px);
     transform: scale(.1) translateX(-2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -2981,13 +2982,13 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateX(48px);
     transform: scale(.475) translateX(48px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
 .zoomInLeft {
   -webkit-animation-name: zoomInLeft;
-  animation-name: zoomInLeft;
+  -moz-animation-name: zoomInLeft;
 }
 
 @-webkit-keyframes zoomInRight {
@@ -2996,7 +2997,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.1) translateX(2000px);
     transform: scale(.1) translateX(2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -3004,7 +3005,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateX(-48px);
     transform: scale(.475) translateX(-48px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
@@ -3015,7 +3016,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.1) translateX(2000px);
     transform: scale(.1) translateX(2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -3024,13 +3025,13 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateX(-48px);
     transform: scale(.475) translateX(-48px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
 .zoomInRight {
   -webkit-animation-name: zoomInRight;
-  animation-name: zoomInRight;
+  -moz-animation-name: zoomInRight;
 }
 
 @-webkit-keyframes zoomInUp {
@@ -3039,7 +3040,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.1) translateY(2000px);
     transform: scale(.1) translateY(2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -3047,7 +3048,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateY(-60px);
     transform: scale(.475) translateY(-60px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
@@ -3058,7 +3059,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.1) translateY(2000px);
     transform: scale(.1) translateY(2000px);
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
   }
 
   60% {
@@ -3067,13 +3068,13 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateY(-60px);
     transform: scale(.475) translateY(-60px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
   }
 }
 
 .zoomInUp {
   -webkit-animation-name: zoomInUp;
-  animation-name: zoomInUp;
+  -moz-animation-name: zoomInUp;
 }
 
 @-webkit-keyframes zoomOut {
@@ -3116,7 +3117,7 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomOut {
   -webkit-animation-name: zoomOut;
-  animation-name: zoomOut;
+  -moz-animation-name: zoomOut;
 }
 
 @-webkit-keyframes zoomOutDown {
@@ -3125,7 +3126,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateY(-60px);
     transform: scale(.475) translateY(-60px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3144,7 +3145,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateY(-60px);
     transform: scale(.475) translateY(-60px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3160,7 +3161,7 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomOutDown {
   -webkit-animation-name: zoomOutDown;
-  animation-name: zoomOutDown;
+  -moz-animation-name: zoomOutDown;
 }
 
 @-webkit-keyframes zoomOutLeft {
@@ -3169,7 +3170,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateX(42px);
     transform: scale(.475) translateX(42px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3188,7 +3189,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateX(42px);
     transform: scale(.475) translateX(42px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3204,7 +3205,7 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomOutLeft {
   -webkit-animation-name: zoomOutLeft;
-  animation-name: zoomOutLeft;
+  -moz-animation-name: zoomOutLeft;
 }
 
 @-webkit-keyframes zoomOutRight {
@@ -3213,7 +3214,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateX(-42px);
     transform: scale(.475) translateX(-42px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3232,7 +3233,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateX(-42px);
     transform: scale(.475) translateX(-42px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3248,7 +3249,7 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomOutRight {
   -webkit-animation-name: zoomOutRight;
-  animation-name: zoomOutRight;
+  -moz-animation-name: zoomOutRight;
 }
 
 @-webkit-keyframes zoomOutUp {
@@ -3257,7 +3258,7 @@ Copyright (c) 2013 Daniel Eden
     -webkit-transform: scale(.475) translateY(60px);
     transform: scale(.475) translateY(60px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3276,7 +3277,7 @@ Copyright (c) 2013 Daniel Eden
     -ms-transform: scale(.475) translateY(60px);
     transform: scale(.475) translateY(60px);
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
   }
 
   100% {
@@ -3292,5 +3293,5 @@ Copyright (c) 2013 Daniel Eden
 
 .zoomOutUp {
   -webkit-animation-name: zoomOutUp;
-  animation-name: zoomOutUp;
+  -moz-animation-name: zoomOutUp;
 }

@@ -55,10 +55,10 @@ h1, h2, h3, h4, h5, h6,
 
 #slideshow > div {
 	position: absolute;
-	top: 0px;
-	left; 0px;
-	right: 0px;
-	bottom: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 main > section {
@@ -72,7 +72,8 @@ main > section {
     text-transform: uppercase;
 }
 
-.btn-blue {
+.btn-blue { 
+    background-color: white;
     background-color: rgba(0,158,227, 0.78);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
@@ -109,12 +110,12 @@ main > section {
 	-webkit-transition-property: color;
 	   -moz-transition-property: color;
 		-ms-transition-property: color;
-			transition-property: color;
+			-o-transition-property: color;
 		  
 	-webkit-transition-duration: 0.3s;
 	   -moz-transition-duration: 0.3s;
 		-ms-transition-duration: 0.3s;
-			transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
 		  
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -137,22 +138,22 @@ main > section {
 	-webkit-transform-origin: 0 50%;
 	   -moz-transform-origin: 0 50%;
 		-ms-transform-origin: 0 50%;
-			transform-origin: 0 50%;
+			-o-transform-origin: 0 50%;
 			
 	-webkit-transition-property: transform;
 	   -moz-transition-property: transform;
 		-ms-transition-property: transform;
-			transition-property: transform;
+			-o-transition-property: transform;
 			
 	-webkit-transition-duration: 0.3s;
 	   -moz-transition-duration: 0.3s;
 		-ms-transition-duration: 0.3s;
-			transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
 			
 	-webkit-transition-timing-function: ease-out;
 	   -moz-transition-timing-function: ease-out;
 		-ms-transition-timing-function: ease-out;
-			transition-timing-function: ease-out;
+			-o-transition-timing-function: ease-out;
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
@@ -163,7 +164,7 @@ main > section {
 	-webkit-transform: scaleX(1);
 	   -moz-transform: scaleX(1);
 	    -ms-transform: scaleX(1);
-			transform: scaleX(1);
+		-o-transform: scaleX(1);
 }
 
 .sec-title {
@@ -242,7 +243,7 @@ main > section {
     position: relative;
     -webkit-animation: charge 5s linear infinite;
        -moz-animation: charge 5s linear infinite;
-            animation: charge 5s linear infinite;
+            -o-animation: charge 5s linear infinite;
     margin: 0 auto;
 }
 
@@ -258,18 +259,18 @@ main > section {
 }
 
 @-webkit-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 @-moz-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 @keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0 0 0 #2E2E2E;}
+    100%{box-shadow: inset 60px 0 0 #2E2E2E;}
 }
 
 
@@ -419,12 +420,12 @@ h1.navbar-brand {
 
 .sl-slide-horizontal .sl-content-slice:first-child {
     top: -200px;
-    padding: 200px 200px 0px 200px;
+    padding: 200px 200px 0 200px;
 }
 
 .sl-slide-horizontal .sl-content-slice:nth-child(2) {
     top: 50%;
-    padding: 0px 200px 200px 200px;
+    padding: 0 200px 200px 200px;
 }
 
 /* Vertical slice */
@@ -442,12 +443,12 @@ h1.navbar-brand {
 
 .sl-slide-vertical .sl-content-slice:first-child {
     left: -200px;
-    padding: 200px 0px 200px 200px;
+    padding: 200px 0 200px 200px;
 }
 
 .sl-slide-vertical .sl-content-slice:nth-child(2) {
     left: 50%;
-    padding: 200px 200px 200px 0px;
+    padding: 200px 200px 200px 0;
 }
 
 /* Content wrapper */
