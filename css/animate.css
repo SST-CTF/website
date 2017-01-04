@@ -302,7 +302,8 @@ Copyright (c) 2013 Daniel Eden
 .swing {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
-  transform-origin: top center;
+  -moz-transform-origin: top center;
+  -o-transform-origin: top center;
   -webkit-animation-name: swing;
   -moz-animation-name: swing;
 }
