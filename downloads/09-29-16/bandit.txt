@@ -1,0 +1,8 @@
+9-29-16
+
+Start Bandit:
+overthewire.org/wargames/bandit
+
+ssh bandit0@bandit.labs.overthewire.org
+Password: bandit0
+

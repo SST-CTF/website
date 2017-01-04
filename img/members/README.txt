@@ -1,0 +1,1 @@
+All photos uploaded here must be in .jpg format and of size [280x280] pixels, no larger, no smaller. 

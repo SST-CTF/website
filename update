@@ -1,0 +1,206 @@
+#!/bin/bash
+#-*- coding: utf-8 -*-
+# Author: Andrew Quach
+#
+# Manage the schedule at http://sstctf.us.to
+
+VERSION="1.0.2"
+
+# Constants
+declare -r html_file='index.php'
+declare -ra tag_prefix=("Previous" "Next" "Future") # Schedule column
+declare -ra tag_body=("Date" "DateLong" "Topic" "Leader" "Description" "Homework" "Download") # Schedule field
+declare -ra tag_suffix=("Begin" "End") # Position of tag in HTML
+declare -ra tag_format=("MM/DD/YY" "WEEKDAY MONTH DATE (TIME)" "1 line of text" "First Last" "2 lines of text" "1 line of text" "/downloads/MM-DD-YY") # Format for the fields
+declare -r prompt=$(echo $'\n> ') # Prompt format
+declare -r is_num='^[0-9]+$'
+
+# Globals
+user_values=
+formatted_user_values=
+
+# Format for complete tag: [PREFIX][BODY][SUFFIX]
+# Possible Tags
+	# 0  PreviousDate          NextDate         FutureDate
+	# 1  PreviousDateLong      NextDateLong     FutureDateLog
+	# 2  PreviousTopic         NextTopic        FutureTopic
+	# 3  PreviousLeader        NextLeader       FutureLeader
+	# 4  PreviousDescription   NextDescription  FutureDescription
+	# 5  PreviousHomework      NextHomework     FutureHomework
+	# 6  PreviousDownload      NextDownload     FutureDownload
+
+# Functions
+
+# USAGE: print_help
+print_help() {
+    
+# Usage information
+cat <<EOF
+USAGE: ./update [0|1]
+0: Automatic Mode
+1: Manual Mode
+
+Automatic mode shifts over the latest two dates.
+It then replaces the latest date with user input.
+
+Manual mode allows the user to place any field needed.
+No shifting is done.
+EOF
+
+    exit
+
+}
+
+# USAGE: retrieve_info [TAG]
+retrieve_info() {
+    
+    # Add the suffix to the tag
+    local start=$1${tag_suffix[0]}
+    local end=$1${tag_suffix[1]}
+
+    # Echo the information between the tags
+    # 1. GREP the information in the HTML File
+    # 2. Use SED to cut out the tags
+    echo $(grep -o "<!--$start-->.*<!--$end-->" "$html_file" | sed "s/\(<\!\-\-$start\-\->\|<\!\-\-$end\-\->\)//g")
+
+}
+
+# USAGE: replace_info [TAG] [REPLACEMENT_TEXT]
+replace_info() {
+    
+    # Add the suffix to the tag
+    local start=$1${tag_suffix[0]}
+    local end=$1${tag_suffix[1]}
+
+    # Escape out the replacement text
+    local escaped_text=$(echo $2 | sed -e 's/[\/&]/\\&/g')
+
+    # Replace the information between the tags
+    # 1. Use SED to replace the information between the tags
+
+	sed -E "s/(<\!\-\-$start\-\->)(.*)(<\!\-\-$end\-\->)/\1$escaped_text\3/" -i "$html_file"
+
+}
+
+# USAGE: get_user_input [PREFIX]
+get_user_input() {
+    
+    # Get user input
+    # Ignore fields 1 and 6 (DateLong and Download)
+    # They can be deduced from field 0 (Date)
+
+    # Loop through the code the number tags times
+    for i in ${!tag_body[@]}; do
+        if [[ ($i -ne 1) && ($i -ne 6) ]]; then
+                read -p "What is the value of $1${tag_body[i]}? Note: The recommended format is \"${tag_format[i]}\". $prompt" user_values[i]
+        fi
+    done
+
+    # Set fields 1 and 6 to the same value as field 0
+    user_values[1]=${user_values[0]}
+    user_values[6]=${user_values[0]}
+
+}
+
+
+# Usage: format_user_input
+format_user_input() {
+
+    # Format field 0 and 1 (Date and DateLong) using date
+    formatted_user_values[0]=$(date --date="${user_values[0]}" "+%m/%d/%g")
+    formatted_user_values[1]=$(date --date="${user_values[1]}" "+%A %B %d")" (2:15-3:30)"
+
+    # Added the corresponding headers to fields 2-5
+    formatted_user_values[2]="Topic: "${user_values[2]}
+    formatted_user_values[3]="Leader: "${user_values[3]}
+    formatted_user_values[4]="Description: "${user_values[4]}
+    formatted_user_values[5]="Homework: "${user_values[5]}
+
+    # Generate a directory (/downloads/currentdate) if it doesn't exist
+    mkdir -p /var/www/html/downloads/"$(date --date="${user_values[0]}" "+%m-%d-%g")"
+
+    # Link to that directory
+    formatted_user_values[6]="<a href=\"downloads/"$(date --date="${user_values[0]}" "+%m-%d-%g")"\">"
+
+}   
+
+# USAGE: main
+main() {
+    
+    # Automated Mode
+    case $1 in
+        0)
+            # Warning
+            echo "This operation will shift the last two dates down."
+            echo "This is irreversible."
+            read -p "Type 1 to confirm the operation. Type anything else to stop. $prompt" verify
+
+            if [[ $verify -ne 1 ]]; then
+                    exit;
+            fi
+
+            # Get user input
+            get_user_input Future
+
+            # Format user input
+            format_user_input
+
+            # Store old columns - "Next" and "Future"
+            local old_next_values=
+            local old_future_Values=
+            for i in ${!tag_body[@]}; do
+                    old_next_values[i]=$(retrieve_info ${tag_prefix[1]}${tag_body[i]});
+                    old_future_values[i]=$(retrieve_info ${tag_prefix[2]}${tag_body[i]});
+            done
+
+            # Shift columns one down.
+            # 1. Old Next -> Previous
+            # 2. Old Future -> Next
+            # 3. User input -> Future
+            for i in ${!tag_body[@]}; do
+                    replace_info ${tag_prefix[0]}${tag_body[i]} "${old_next_values[i]}"
+                    replace_info ${tag_prefix[1]}${tag_body[i]} "${old_future_values[i]}"
+                    replace_info ${tag_prefix[2]}${tag_body[i]} "${formatted_user_values[i]}"
+            done
+            ;;
+
+        # Control Mode
+        1)
+            # Description
+            echo "This operation will allow you to edit a specific column."
+            read -p "What column do you wish to edit? ${prompt}Type 0 for \"Past\"${prompt}Type 1 for \"Next\"${prompt}Type 2 for \"Future\"${prompt}" selection
+
+            # Verify if the choice made is between 0-2
+            if ! [[ ($selection -ge 0) && ($selection -le 2) && ($selection =~ $is_num ) ]]; then
+                    echo "Invalid input."
+                    exit;
+            fi
+
+            echo "Type 'n' to skip a field. The original value will remain."
+
+            # Get user input
+            get_user_input ${tag_prefix[selection]}
+
+            # Format user input
+            format_user_input
+
+            # Replace columns with user input
+            for i in ${!tag_body[@]}; do
+
+                # Do not replace if field contains "n"
+                if [[ ${user_values[i]} != "n" ]]; then
+                    replace_info "${tag_prefix[selection]}${tag_body[i]}" "${formatted_user_values[i]}"
+                fi
+            done
+
+            ;;
+        esac
+
+}
+
+# PROGRAM START
+if [[ $# -eq 1 ]] && [[ ($1 -ge 0) && ($1 -le 1) ]] && [[ $1 =~ $is_num ]]; then
+        main $1
+else
+        print_help
+fi
