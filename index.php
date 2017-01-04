@@ -559,15 +559,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->11/07/16<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Monday November 07 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->11/09/16<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Wednesday November 09 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: Coding Progress Check<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousTopicBegin-->Topic: Present Projects<!--PreviousTopicEnd--></li>
                                 <li><!--PreviousLeaderBegin-->Leader: Otakar Andrysek<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: Checkup on coding project, collaborate with others.<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: More Coding!<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/11-07-16"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Present the coding projects we have been working on for the last week.<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: TBD<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/11-09-16"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -577,15 +577,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->11/09/16<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Wednesday November 09 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->01/03/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Tuesday January 03 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: Present Projects<!--NextTopicEnd--></li>
+                                <li><!--NextTopicBegin-->Topic: Competition Overview<!--NextTopicEnd--></li>
                                 <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Present the coding projects we have been working on for the last week.<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: TBD<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/11-09-16"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextDescriptionBegin-->Description: Discussed writeups of previous competition, and prepared for Insomni'hack.<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: 3DSCTF writeups<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/01-03-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -595,15 +595,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->01/03/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Tuesday January 03 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->01/05/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Thursday January 05 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: Competition Overview<!--FutureTopicEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: State of the Club<!--FutureTopicEnd--></li>
                                 <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Discussed writeups of previous competition, and prepared for Insomni'hack.<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: 3DSCTF writeups<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/01-03-17"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureDescriptionBegin-->Description: Discuss and debate the future of SST-CTF.<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: None<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/01-05-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
