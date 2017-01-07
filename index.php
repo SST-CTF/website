@@ -34,11 +34,6 @@ if(isset($_POST['contactsubmit'])) {
         $err = True;
     }
 
-    echo $to;
-    echo $subject;
-    echo $body;
-
-
     if (!$err) {
         if (mail($to, $subject, $body)) {
             $result = '<div class="alert alert-success">Thank you! We will be in touch.</div>';
