@@ -1,5 +1,4 @@
 <?php
 
-phpinfo();
-
+mail('sstctf@gmail.com', 'test13', 'test');
 ?>
