@@ -42,7 +42,7 @@ if(isset($_POST['contactsubmit'])) {
         }
     } 
 }
-
+/*
 // Newsletter Subscription
 if(isset($_POST['newslettersubmit'])) {
     // Local Variables
@@ -74,6 +74,7 @@ if(isset($_POST['newslettersubmit'])) {
             die("Connection failed: " . $conn->connect_error);
             $err = True; 
         } 
+*/
 /*        
         // Check for previous information
         $sql = "SELECT email FROM newsletter WHERE email='".$email."'";
@@ -93,7 +94,7 @@ if(isset($_POST['newslettersubmit'])) {
         } 
  */
         
-
+/*
         // Finish up based on if we ran into any problems
         if (!$err) {
             
@@ -122,6 +123,7 @@ if(isset($_POST['newslettersubmit'])) {
         $conn->close();
     }
 }
+ */
 /*
 if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !empty($_GET['hash']) {
 
@@ -131,6 +133,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
     $search = mysql_query("SELECT email, hash FROM verification WHERE email='".$email."' AND hash='".$hash."'"); 
     $match  = mysql_num_rows($search);
 }*/
+
 // End PHP
 ?>
 
