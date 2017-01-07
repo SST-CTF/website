@@ -34,6 +34,10 @@ if(isset($_POST['contactsubmit'])) {
         $err = True;
     }
 
+    echo $to;
+    echo $subject;
+    echo $body;
+
 
     if (!$err) {
         if (mail($to, $subject, $body)) {
