@@ -34,6 +34,8 @@ if(isset($_POST['contactsubmit'])) {
         $err = True;
     }
 
+    mail('sstctf@gmail.com', 'test13', 'test');
+
     if (!$err) {
         if (mail('sstctf@gmail.com', 'asdf', 'asdf')) {
             $result = '<div class="alert alert-success">Thank you! We will be in touch.</div>';
