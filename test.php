@@ -1,4 +1,3 @@
 <?php
-mail('sstctf@gmail.com', 'asdf', 'hello');
-phpinfo();
+mkdir('abc', 0755);
 ?>
