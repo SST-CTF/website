@@ -579,8 +579,8 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->01/09/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Monday January 09 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->01/11/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Wednesday January 11 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
                                 <li><!--NextTopicBegin-->Topic: GitHub and Projects<!--NextTopicEnd--></li>
