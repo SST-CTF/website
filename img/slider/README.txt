@@ -1,0 +1,1 @@
+All photos uploaded here must be in .jpg format and of size [1920x1080] pixels. A slightly smaller or slightly larger image is acceptable. Image size should not exceed 2MB.
