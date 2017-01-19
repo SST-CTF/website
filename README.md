@@ -1,7 +1,6 @@
 # SST CTF Website
 
 [![Code Climate](https://codeclimate.com/github/SST-CTF/website/badges/gpa.svg)](https://codeclimate.com/github/SST-CTF/website)
-[![Build Status](https://travis-ci.org/SST-CTF/website.svg?branch=master)](https://travis-ci.org/SST-CTF/website)
 [![Issue Count](https://codeclimate.com/github/SST-CTF/website/badges/issue_count.svg)](https://codeclimate.com/github/SST-CTF/website)
 
 ##### Official GitHub Repository for our Website
