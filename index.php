@@ -524,7 +524,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                                 <img src="img/members/dane.jpg" alt="Picture of Dane">
                                 <div class="clearfix">
                                     <span>Dane Miller</span>
-                                    <p>I have very limited knowledge of software and even less knowledge of hardware, and decided to participate in CTF due to my interest in the subjects. I have learned a lot from the fellow members and have come a long way so far. I hope to expand into more languages and concepts in the next few years and hopefully become an important and beneficial part of the competetive team.</p>
+                                    <p>I was drawn to CTF due primarily to my interest in software, but quickly found an appreciation for cryptography. I have been mentored and encouraged by the senior members of the club and I have learned a ton since I joined the club. I have limited experience with software and inadequate skill for most competitions, but I always enjoy the challenge. I gravitate towards the logic based puzzles, and encourage anyone who loves a puzzle to consider joining SST CTF.</p>
                                 </div>
                           </div>
 			    <div class="testimonial-item text-center">
