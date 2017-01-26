@@ -561,15 +561,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->01/18/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Wednesday January 18 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->01/26/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Thursday January 26 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: Discord Bot<!--PreviousTopicEnd--></li>
-                                <li><!--PreviousLeaderBegin-->Leader: Andrew Quach<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: Learn how to create and manage a Discord bot.<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: Funding Proposal<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/01-05-17"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousTopicBegin-->Topic: Programming Projects<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousLeaderBegin-->Leader: Tamir Enkhjargel<!--PreviousLeaderEnd--></li>
+                                <li><!--PreviousDescriptionBegin-->Work on our various programming projects. Specifically the Typing Test.<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: Projects<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/01-26-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -579,15 +579,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->01/20/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Friday January 20 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->01/30/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Friday January 30 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: Essays and GitHub<!--NextTopicEnd--></li>
-                                <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Finish mentor letter and funding proposal, review git.<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: Get some commits!<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/01-09-17"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextTopicBegin-->Topic: Pwning<!--NextTopicEnd--></li>
+                                <li><!--NextLeaderBegin-->Leader: Andrew Quach<!--NextLeaderEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: Learning how to pwn<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: Get some commits and practice pwning<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/01-30-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -597,15 +597,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->01/24/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Tuesday January 24 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->02/1/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Wednesday February 1 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: Competition Review<!--FutureTopicEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: Programming Projects<!--FutureTopicEnd--></li>
                                 <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Review results from Saturday's competition<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: Writeups<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/01-13-17"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureDescriptionBegin-->Description: Working on projects<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: Commits!<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/02-1-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
