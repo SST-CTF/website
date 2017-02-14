@@ -561,15 +561,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->01/26/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Thursday January 26 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->02/14/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Tuesday February 14 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: Programming Projects<!--PreviousTopicEnd--></li>
-                                <li><!--PreviousLeaderBegin-->Leader: Tamir Enkhjargel<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Work on our various programming projects. Specifically the Typing Test.<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: Projects<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/01-26-17"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousTopicBegin-->Topic: Socket and Oregon CTF<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousLeaderBegin-->Leader: Andrew Quach<!--PreviousLeaderEnd--></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Learning about socket library in Python and preparing for Oregon CTF.<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: WORK ON YOUR GITHUB STUFF<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/02-14-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -579,13 +579,13 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->01/30/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Friday January 30 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->02/16/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Thusday February 16 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: Pwning<!--NextTopicEnd--></li>
+                                <li><!--NextTopicBegin-->Topic: Preparing for Oregon CTF<!--NextTopicEnd--></li>
                                 <li><!--NextLeaderBegin-->Leader: Andrew Quach<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Learning how to pwn<!--NextDescriptionEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: Preparing for Oregon CTF<!--NextDescriptionEnd--></li>
                                 <li><!--NextHomeworkBegin-->Homework: Get some commits and practice pwning<!--NextHomeworkEnd--></li>
                                 <li><!--NextDownloadBegin--><a href="downloads/01-30-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
@@ -597,13 +597,13 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->02/1/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Wednesday February 1 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->02/18/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Saturday February 18 (10:00-1:00))<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: Programming Projects<!--FutureTopicEnd--></li>
-                                <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Working on projects<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: Outside Meeting: Preparing for Oregon CTF<!--FutureTopicEnd--></li>
+                                <li><!--FutureLeaderBegin-->Leader: Baran<!--FutureLeaderEnd--></li>
+                                <li><!--FutureDescriptionBegin-->Description: Preparing for Oregon CTF<!--FutureDescriptionEnd--></li>
                                 <li><!--FutureHomeworkBegin-->Homework: Commits!<!--FutureHomeworkEnd--></li>
                                 <li><!--FutureDownloadBegin--><a href="downloads/02-1-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
