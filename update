@@ -4,7 +4,7 @@
 #
 # Manage the schedule at http://sstctf.org
 
-VERSION="1.0.2"
+VERSION="1.1.2"
 
 # Constants
 declare -r html_file='index.php'
@@ -95,6 +95,11 @@ get_user_input() {
             read -p "What is the value of $1${tag_body[i]}? Note: The recommended format is \"${tag_format[i]}\". $prompt" user_values[i]
         fi
     done
+
+    # Get already inputted date if user skipped field
+    if [[ ${user_values[0]} == 'n' ]]; then
+        user_values[0]=$(retrieve_info $1"Date")
+    fi
 
     # Set fields 1 and 6 to the same value as field 0
     user_values[1]=${user_values[0]}
