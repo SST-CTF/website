@@ -92,7 +92,7 @@ get_user_input() {
     # Loop through the code the number tags times
     for i in ${!tag_body[@]}; do
         if [[ ($i -ne 1) && ($i -ne 6) ]]; then
-                read -p "What is the value of $1${tag_body[i]}? Note: The recommended format is \"${tag_format[i]}\". $prompt" user_values[i]
+            read -p "What is the value of $1${tag_body[i]}? Note: The recommended format is \"${tag_format[i]}\". $prompt" user_values[i]
         fi
     done
 
@@ -117,8 +117,10 @@ format_user_input() {
     formatted_user_values[5]="Homework: "${user_values[5]}
 
     # Generate a directory (/downloads/currentdate) if it doesn't exist
-    # mkdir -p /var/www/html/downloads/"$(date --date="${user_values[0]}" "+%m-%d-%g")" # Enable if on server with sudo
-
+    # Enable if on server with sudo
+    if [[ $(id -u) -eq 0 ]] && [[ $(hostname -s) = "sstctf" ]]; then
+        mkdir -p /var/www/html/downloads/"$(date --date="${user_values[0]}" "+%m-%d-%g")" 
+    fi
     # Link to that directory
     formatted_user_values[6]="<a href=\"downloads/"$(date --date="${user_values[0]}" "+%m-%d-%g")"\">"
 
@@ -136,7 +138,7 @@ main() {
             read -p "Type 1 to confirm the operation. Type anything else to stop. $prompt" verify
 
             if [[ $verify -ne 1 ]]; then
-                    exit;
+                exit;
             fi
 
             # Get user input
@@ -149,8 +151,8 @@ main() {
             local old_next_values=
             local old_future_Values=
             for i in ${!tag_body[@]}; do
-                    old_next_values[i]=$(retrieve_info ${tag_prefix[1]}${tag_body[i]});
-                    old_future_values[i]=$(retrieve_info ${tag_prefix[2]}${tag_body[i]});
+                old_next_values[i]=$(retrieve_info ${tag_prefix[1]}${tag_body[i]});
+                old_future_values[i]=$(retrieve_info ${tag_prefix[2]}${tag_body[i]});
             done
 
             # Shift columns one down.
@@ -158,9 +160,9 @@ main() {
             # 2. Old Future -> Next
             # 3. User input -> Future
             for i in ${!tag_body[@]}; do
-                    replace_info ${tag_prefix[0]}${tag_body[i]} "${old_next_values[i]}"
-                    replace_info ${tag_prefix[1]}${tag_body[i]} "${old_future_values[i]}"
-                    replace_info ${tag_prefix[2]}${tag_body[i]} "${formatted_user_values[i]}"
+                replace_info ${tag_prefix[0]}${tag_body[i]} "${old_next_values[i]}"
+                replace_info ${tag_prefix[1]}${tag_body[i]} "${old_future_values[i]}"
+                replace_info ${tag_prefix[2]}${tag_body[i]} "${formatted_user_values[i]}"
             done
             ;;
 
@@ -172,8 +174,8 @@ main() {
 
             # Verify if the choice made is between 0-2
             if ! [[ ($selection -ge 0) && ($selection -le 2) && ($selection =~ $is_num ) ]]; then
-                    echo "Invalid input."
-                    exit;
+                echo "Invalid input."
+                exit;
             fi
 
             echo "Type 'n' to skip a field. The original value will remain."
