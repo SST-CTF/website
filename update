@@ -96,6 +96,11 @@ get_user_input() {
         fi
     done
 
+    # Get already inputted date if user skipped field
+    if [[ ${user_values[0]} == 'n' ]]; then
+        user_values[0]=$(retrieve_info $1"Date")
+    fi
+
     # Set fields 1 and 6 to the same value as field 0
     user_values[1]=${user_values[0]}
     user_values[6]=${user_values[0]}
