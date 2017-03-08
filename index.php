@@ -733,8 +733,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
             </div>
         </footer>
 
-        <!-- Essential jQuery Plugins
-        ================================================== -->
+        <!-- Essential jQuery Plugins -->
         <!-- Main jQuery -->
         <script src="js/jquery-1.11.1.min.js"></script>
         <!-- Twitter Bootstrap -->
