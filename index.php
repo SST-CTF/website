@@ -613,7 +613,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                 </div>
             </div>
         </section>
-        <!-- end Price section -->
+        <!-- End Price section -->
 
         <!-- Social section -->
         <section id="social" class="parallax">
@@ -715,6 +715,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                         <?php echo "<p class='text-danger'>$errName</p>";?>
                         <!-- END Newsletter Section -->
                         
+			<!-- TODO -->
                         <div class="footer-social">
                             <ul>
                                 <li class="wow animated zoomIn"><a href="https://www.facebook.com/SST-CTF-1113073442103189/"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
