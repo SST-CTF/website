@@ -561,15 +561,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->03/09/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Thursday March 09 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->03/10/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Friday March 10 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
                                 <li><!--PreviousTopicBegin-->Topic: TBD<!--PreviousTopicEnd--></li>
                                 <li><!--PreviousLeaderBegin-->Leader: TBD<!--PreviousLeaderEnd--></li>
                                 <li><!--PreviousDescriptionBegin-->Description: The next meeting has yet to be determined. Check back soon!<!--PreviousDescriptionEnd--></li>
                                 <li><!--PreviousHomeworkBegin-->Homework: TBD<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/03-09-17"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/03-10-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -579,15 +579,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->03/10/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Friday March 10 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->04/14/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Friday April 14 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: TBD<!--NextTopicEnd--></li>
-                                <li><!--NextLeaderBegin-->Leader: TBD<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: The next meeting has yet to be determined. Check back soon!<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: TBD<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/03-10-17"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextTopicBegin-->Topic: PicoCTF<!--NextTopicEnd--></li>
+                                <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: Work on CTF competition<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: None<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/04-14-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -597,15 +597,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->04/14/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Friday April 14 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->04/25/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: PicoCTF<!--FutureTopicEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: PicoCTF Writeups<!--FutureTopicEnd--></li>
                                 <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Work on CTF competition<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: None<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/04-14-17"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureDescriptionBegin-->Description: Look at writeups for PicoCTF<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: Make Writeups<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/04-25-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
