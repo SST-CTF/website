@@ -561,15 +561,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->04/14/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Friday April 14 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->04/25/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: PicoCTF<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousTopicBegin-->Topic: PicoCTF Writeups<!--PreviousTopicEnd--></li>
                                 <li><!--PreviousLeaderBegin-->Leader: Otakar Andrysek<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: Work on CTF competition<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: None<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/04-14-17"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Look at writeups for PicoCTF<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: Make Writeups<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/04-25-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -579,15 +579,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->04/25/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->04/21/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Friday April 21 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: PicoCTF Writeups<!--NextTopicEnd--></li>
-                                <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Look at writeups for PicoCTF<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: Make Writeups<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/04-25-17"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextTopicBegin-->Topic: RSA<!--NextTopicEnd--></li>
+                                <li><!--NextLeaderBegin-->Leader: Andrew Quach<!--NextLeaderEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: Learn how to exploit the RSA algorithm.<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: Attempt to solve Pico Problems<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/04-21-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -597,15 +597,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->04/21/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Friday April 21 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->04/25/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: RSA<!--FutureTopicEnd--></li>
-                                <li><!--FutureLeaderBegin-->Leader: Andrew Quach<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: Learn how to exploit the RSA algorithm.<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: Attempt to solve Pico Problems<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/04-21-17"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureTopicBegin-->Topic: SQL Injection<!--FutureTopicEnd--></li>
+                                <li><!--FutureLeaderBegin-->Leader: Stan Layakhov<!--FutureLeaderEnd--></li>
+                                <li><!--FutureDescriptionBegin-->Description: Learn complex SQL injections<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: Inject!<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/04-25-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
