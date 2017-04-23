@@ -716,6 +716,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                         <!-- END Newsletter Section -->
                         
 			<!-- TODO -->
+			    <!-- TODO -->
                         <div class="footer-social">
                             <ul>
                                 <li class="wow animated zoomIn"><a href="https://www.facebook.com/SST-CTF-1113073442103189/"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
