@@ -169,6 +169,9 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
 <!-- Fontawesome Icon font -->
 <link rel="stylesheet" href="css/font-awesome.min.css">
 
+<!-- favicon -->
+<link rel="icon" type="image/x-icon" href="fonts/favicon.ico">
+
 <!-- bootstrap.min -->
 <link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
