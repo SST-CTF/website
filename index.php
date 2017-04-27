@@ -564,15 +564,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->04/21/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Friday April 21 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->04/25/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: RSA<!--PreviousTopicEnd--></li>
-                                <li><!--PreviousLeaderBegin-->Leader: Andrew Quach<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: Learn how to exploit the RSA algorithm.<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: Attempt to solve Pico Problems<!--PreviousHomeworkEnd--></li>
-                                <li><!--PreviousDownloadBegin--><a href="downloads/04-21-17"><!--PreviousDownloadEnd-->Downloads</a></li>
+                                <li><!--PreviousTopicBegin-->Topic: SQL Injection<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousLeaderBegin-->Leader: Stan Layakhov<!--PreviousLeaderEnd--></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Learn complex SQL injections<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: Inject!<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousDownloadBegin--><a href="downloads/04-25-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -582,15 +582,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->04/25/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Tuesday April 25 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->04/27/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Thursday April 27 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: SQL Injection<!--NextTopicEnd--></li>
-                                <li><!--NextLeaderBegin-->Leader: Stan Layakhov<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Learn complex SQL injections<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: Inject!<!--NextHomeworkEnd--></li>
-                                <li><!--NextDownloadBegin--><a href="downloads/04-25-17"><!--NextDownloadEnd-->Downloads</a></li>
+                                <li><!--NextTopicBegin-->Topic: Coding<!--NextTopicEnd--></li>
+                                <li><!--NextLeaderBegin-->Leader: Otakar Andrysek<!--NextLeaderEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: New coding projects in preperation for two week break<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: Code, code, code!<!--NextHomeworkEnd--></li>
+                                <li><!--NextDownloadBegin--><a href="downloads/04-27-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
@@ -600,15 +600,15 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->04/27/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Thursday April 27 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->05/15/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Monday May 15 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: Coding<!--FutureTopicEnd--></li>
-                                <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: New coding projects in preperation for two week break<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: Code, code, code!<!--FutureHomeworkEnd--></li>
-                                <li><!--FutureDownloadBegin--><a href="downloads/04-27-17"><!--FutureDownloadEnd-->Downloads</a></li>
+                                <li><!--FutureTopicBegin-->Topic: Back to CTF<!--FutureTopicEnd--></li>
+                                <li><!--FutureLeaderBegin-->Leader: N/A<!--FutureLeaderEnd--></li>
+                                <li><!--FutureDescriptionBegin-->Description: Return from AP tests and prepare for weekend CTF<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: N/A<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureDownloadBegin--><a href="downloads/05-15-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
                     </div>
