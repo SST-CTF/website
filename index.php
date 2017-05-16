@@ -564,14 +564,14 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Previous Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--PreviousDateBegin-->04/27/17<!--PreviousDateEnd--></span><br>
-                                <span><!--PreviousDateLongBegin-->Thursday April 27 (2:15-3:30)<!--PreviousDateLongEnd--></span>
+                                <span><!--PreviousDateBegin-->05/16/17<!--PreviousDateEnd--></span><br>
+                                <span><!--PreviousDateLongBegin-->Tuesday May 16 (2:15-3:30)<!--PreviousDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--PreviousTopicBegin-->Topic: Coding<!--PreviousTopicEnd--></li>
-                                <li><!--PreviousLeaderBegin-->Leader: Otakar Andrysek<!--PreviousLeaderEnd--></li>
-                                <li><!--PreviousDescriptionBegin-->Description: New coding projects in preperation for two week break<!--PreviousDescriptionEnd--></li>
-                                <li><!--PreviousHomeworkBegin-->Homework: Code, code, code!<!--PreviousHomeworkEnd--></li>
+                                <li><!--PreviousTopicBegin-->Topic: Leviatan<!--PreviousTopicEnd--></li>
+                                <li><!--PreviousLeaderBegin-->Leader: Stan Lyakhov<!--PreviousLeaderEnd--></li>
+                                <li><!--PreviousDescriptionBegin-->Description: Work on perfecting linux skills and improving basic web systems. Learn ltrace.<!--PreviousDescriptionEnd--></li>
+                                <li><!--PreviousHomeworkBegin-->Homework: Prepare for Saturday<!--PreviousHomeworkEnd--></li>
                                 <li><!--PreviousDownloadBegin--><a href="downloads/04-27-17"><!--PreviousDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
@@ -582,14 +582,14 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Next Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--NextDateBegin-->05/15/17<!--NextDateEnd--></span><br>
-                                <span><!--NextDateLongBegin-->Monday May 15 (2:15-3:30)<!--NextDateLongEnd--></span>
+                                <span><!--NextDateBegin-->05/18/17<!--NextDateEnd--></span><br>
+                                <span><!--NextDateLongBegin-->Thursday May 18 (2:15-3:30)<!--NextDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--NextTopicBegin-->Topic: Back to CTF<!--NextTopicEnd--></li>
-                                <li><!--NextLeaderBegin-->Leader: N/A<!--NextLeaderEnd--></li>
-                                <li><!--NextDescriptionBegin-->Description: Return from AP tests and prepare for weekend CTF<!--NextDescriptionEnd--></li>
-                                <li><!--NextHomeworkBegin-->Homework: N/A<!--NextHomeworkEnd--></li>
+                                <li><!--NextTopicBegin-->Topic: Binary Exploitation<!--NextTopicEnd--></li>
+                                <li><!--NextLeaderBegin-->Leader: Andrew Quach<!--NextLeaderEnd--></li>
+                                <li><!--NextDescriptionBegin-->Description: Brush up on binary exploatation skills using past CTF problems.<!--NextDescriptionEnd--></li>
+                                <li><!--NextHomeworkBegin-->Homework: None<!--NextHomeworkEnd--></li>
                                 <li><!--NextDownloadBegin--><a href="downloads/05-15-17"><!--NextDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
@@ -600,14 +600,14 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                             <span>Future Meeting</span>
                             <div class="value">
                                 <span></span>
-                                <span><!--FutureDateBegin-->05/17/17<!--FutureDateEnd--></span><br>
-                                <span><!--FutureDateLongBegin-->Wednesday May 17 (2:15-3:30)<!--FutureDateLongEnd--></span>
+                                <span><!--FutureDateBegin-->05/22/17<!--FutureDateEnd--></span><br>
+                                <span><!--FutureDateLongBegin-->Monday May 22 (2:15-3:30)<!--FutureDateLongEnd--></span>
                             </div>
                             <ul>
-                                <li><!--FutureTopicBegin-->Topic: N/A<!--FutureTopicEnd--></li>
-                                <li><!--FutureLeaderBegin-->Leader: N/A<!--FutureLeaderEnd--></li>
-                                <li><!--FutureDescriptionBegin-->Description: N/A<!--FutureDescriptionEnd--></li>
-                                <li><!--FutureHomeworkBegin-->Homework: N/A<!--FutureHomeworkEnd--></li>
+                                <li><!--FutureTopicBegin-->Topic: Web Exploitation<!--FutureTopicEnd--></li>
+                                <li><!--FutureLeaderBegin-->Leader: Otakar Andrysek<!--FutureLeaderEnd--></li>
+                                <li><!--FutureDescriptionBegin-->Description: Learn how to use wireshark and other network ctf problems.<!--FutureDescriptionEnd--></li>
+                                <li><!--FutureHomeworkBegin-->Homework: None<!--FutureHomeworkEnd--></li>
                                 <li><!--FutureDownloadBegin--><a href="downloads/05-17-17"><!--FutureDownloadEnd-->Downloads</a></li>
                             </ul>
                         </div>
