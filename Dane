@@ -1,0 +1,107 @@
+WARNING: THIS IS LIVE ON THE WEBSITE/APP
+DO NOT MAKE EDITS THAT YOU DO NOT DESIRE TO APPEAR FOR USERS
+MAKE SURE TO SAVE AND KEEP COPIES
+
+How to use:
+
+Every line is "read" by the program
+However, the program only considers lines beginning with "<" as code
+	Lines beginning with an indent (tab) or space will NOT be read
+The lines beginning with "<" will be considered as code from the ">" until the "/"
+	Everything between "<" and ">" is a note for editing, NOT considered as code
+		This is useful for identifying what you are editing
+	Everything after the "/" is a note for editing, NOT considered as code
+Blank lines are skipped over by the program, only here to help editors
+
+Example:
+
+	<NOTES_go_in_here> DISPLAYED TEXT goes in here / more NOTES go in here
+	This line is all notes
+	<NOTES> DISPLAYED TEXT / NOTES
+
+
+This is how some courses would look (do NOT include the indent if you want the program to read it):
+
+NOTE - 	The items (course_id, course_name, creditc, etc) MUST be in this order
+	Do NOT add more items to the list (Don't add a "<average_grade>" category)
+		This WILL cause the program to make mistakes
+
+	<course_id> X1849703 / 		This ID number should match the official course ID number
+	<course_name> Precalculus / 	Use the most official name
+	<credits> 1.0 / 		This MUST fit in 0.0 format (1.0 or 0.5) DO NOT use 1, .5 or 1/2
+	<weight> False / 		Only use "True" or "False", True would be for weighted (AP) classes
+	<grade_division> L /		Determines if lowers (L) or uppers (U) will likely take the class. UX means that ONLY uppers can take it, LX is ONLY lowers
+	<teacher_name> Ting Sheppy /	Be formal here
+	<prerequisites> Algebra 2 /	ONLY use the HIGHEST prerequisite (Algebra 2, NOT Algebra 1 or Geometry)
+	<description> Precalculus is a math course that is intended to prepare sudents for AP Calculus /
+
+	<course_id> B5678905 /
+	<course_name> AP Government /
+	<credits> 1.0 /
+	<weight> True /	
+	<grade_division> UX /		
+	<teacher_name> Wendi Wise /
+	<prerequisites> None /		If there are no prerequisites, write "None"
+	<description> This class is very painful and has proven quite dificult /
+
+When in doubt, the SIMPLEST example is:
+	<NOTES> DISPLAYED TEXT / NOTES
+
+
+
+!!! --- PUT ALL CODE BELOW HERE (for organization's sake) --- !!!
+
+
+<course_id> H6789036 /
+<course_name> Algrebra 1 /
+<credits> 1.0 /
+<weight> False /
+<grade_division> L /
+<teacher_name> Ting Sheppy /
+<prerequisites> None /
+<description> Math is ezpz mode if u r here /
+
+<course_id> J4567843 /
+<course_name> Geometry /
+<credits> 1.0 /
+<weight> False /
+<grade_division> L /
+<teacher_name> Ting Sheppy /
+<prerequisites> Algebra 1 /
+<description> Triangels Triangles Triangles Ahhhhhhhhhhhhhh... /
+
+<course_id> Q34567893 /
+<course_name> Algebra 2 /
+<credits> 1.0 /
+<weight> False /
+<grade_division> L /
+<teacher_name> Ting Sheppy /
+<prerequisites> Geometry /
+<description> x = kys /
+
+<course_id> X1849703 /
+<course_name> Precalculus /
+<credits> 1.0 /
+<weight> False /
+<grade_division> U /
+<teacher_name> Ting Sheppy /
+<prerequisites> Algebra 2 /
+<description> This is a very brief summary of the class, hooray! /
+
+<course_id> R4567893 /
+<course_name> AP Calculus /
+<credits> 1.0 /
+<weight> True /
+<grade_division> U /
+<teacher_name> Big Daddy Hector Morales /
+<prerequisites> Precalculus /
+<description> You are a big boy now /
+
+<course_id> B9662943 /
+<course_name> AP Government /
+<credits> 1.0 /
+<weight> True /
+<grade_division> UX /
+<teacher_name> Wendi Wise /
+<prerequisites> None /
+<description> Write something useful here, don't be lazy like me /
