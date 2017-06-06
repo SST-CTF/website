@@ -53,7 +53,7 @@ When in doubt, the SIMPLEST example is:
 
 
 <course_id> M6789036 /
-<course_name> Algebra 1 /
+<course_name> <>*&$%@/\2<>643&><<>432642!@#56 /
 <credits> 1.0 /
 <weight> false /
 <grade_division> L /
