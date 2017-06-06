@@ -84,7 +84,7 @@ When in doubt, the SIMPLEST example is:
 <credits> 1.0 /
 <weight> false /
 <grade_division> L /
-<teacher_name> Ting Sheppy /
+<teacher_name> Chester Novitt /
 <prerequisites> Algebra 2 /
 <description> This is a very brief summary of the class, hooray! /
 
