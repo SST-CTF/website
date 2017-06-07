@@ -1,5 +1,10 @@
 <?php
+$to      = 'otakar@sstctf.org';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: kms@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-mail("otakar@sstctf.org", "This is the easiest time of your life...", "You are not living up to your fullest potential.");
-
+mail($to, $subject, $message, $headers);
 ?>
