@@ -151,6 +151,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>SST CTF Official Website</title>		
 <!-- Meta Description -->
+<meta name="google-site-verification" content="TggGO3ub1rTXm1bJYBoLVanfAvQOZ0BW5FZz0YVwIQE" />
 <meta name="description" content="SST CTF - We are the school of science and technology's hacking and programming team.">
 <meta name="keywords" content="SST, School, Science, Technology, CTF, Capture the Flag, Security, Exploitation, Reverse, Engineering, SSTCTF">
 <meta name="author" content="Tamir Enkhjargal, Andrew Quach, Otakar Andrysek, Stan Lyakhov">
