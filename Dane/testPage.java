@@ -1,8 +1,8 @@
-//applet.java
+//testPage.java
 
 import java.applet.Applet;
 import java.awt.Graphics; 
-public class Applet extends Applet
+public class testPage extends Applet
 { 
     public void paint(Graphics g)
     { 
