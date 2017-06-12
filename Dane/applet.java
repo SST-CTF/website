@@ -2,7 +2,7 @@
 
 import java.applet.Applet;
 import java.awt.Graphics; 
-public class applet extends Applet
+public class Applet extends Applet
 { 
     public void paint(Graphics g)
     { 
