@@ -94,7 +94,7 @@ When in doubt, the SIMPLEST example is:
 <weight> true /
 <grade_division> U /
 <teacher_name> Big Daddy Hector Morales /
-<prerequisites> Precalculus /
+<prerequisites> AP Statistics /
 <description> You are a big boy now /
 
 <course_id> M200 /
