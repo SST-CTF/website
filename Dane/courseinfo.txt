@@ -103,7 +103,7 @@ When in doubt, the SIMPLEST example is:
 <weight> true /
 <grade_division> U /
 <teacher_name> Big Daddy Hector Morales /
-<prerequisites> AP Calculus /
+<prerequisites> Algebra 2 /
 <description> You are a big boy now /
 
 <course_id> S9662943 /
