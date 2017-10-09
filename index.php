@@ -544,6 +544,13 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
                                     <span>Stephen Brimhall</span>
                                     <p>I have been fascinated by computers all my life. When I saw a flyer for the SST CTF club, I joined immediately. I was exposed to cybersecurity after my freshman year in the CyberDiscovery camp in Portland, and have been interested since. I have also written several of the utilities running on our server.</p>
                                 </div>
+				<div class="testimonial-item text-center">
+                                <img src="img/members/jakob.jpg" alt="Picture of Jakob">
+                                <div class="clearfix">
+                                    <span>Jakob Fox</span>										
+                                    <p>placeholder text lol</p>
+                                </div>
+                            </div>
                 </div>
             </div>
         </section>
